@@ -8,4 +8,8 @@ app.get('/', function(req, res) {
   res.sendFile('public/index.html');
 });
 
-app.listen(3000);
+var HOST = process.env.HOST || '127.0.0.1';
+var PORT = process.env.PORT || '3000';
+app.listen(PORT, HOST, function() {
+  console.log('Serving website on ' + HOST + ':' + PORT);
+});

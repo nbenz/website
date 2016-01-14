@@ -4,8 +4,8 @@
   "description": "mycoolsite",
   "main": "index.js",
   "scripts": {
-    "start": "forever -w --spinSleepTime 10000 index.js",
-    "test": "node index.js"
+    "start": "forever -w -s --spinSleepTime 10000 start index.js",
+    "test": "HOST='0.0.0.0' PORT=8080 node index.js"
   },
   "repository": {
     "type": "git",
