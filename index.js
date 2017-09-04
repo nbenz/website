@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 var HOST = process.env.HOST || '127.0.0.1';
-var PORT = process.env.PORT || '3000';
+var PORT = process.env.PORT || '30000';
 app.listen(PORT, HOST, function() {
   console.log('Serving website on ' + HOST + ':' + PORT);
 });
