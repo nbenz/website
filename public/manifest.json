@@ -1,0 +1,10 @@
+{
+  "background_color": "#FFFCF7",
+  "display": "fullscreen",
+  "icons": [],
+  "name": "Nate Dot Com",
+  "orientation": "portrait",
+  "short_name": "Nate",
+  "start_url": "/",
+  "theme_color": "#FFFCF7"
+}
